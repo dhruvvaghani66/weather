@@ -1,0 +1,331 @@
+.contact {
+    background-image: url('../../../assets/contact.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    color: white;
+}
+
+.contact-bg {
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 12%;
+    font-size: 1.4em;
+}
+
+.contact-map img {
+    width: 99%;
+    height: 50vh;
+}
+
+.map-touch {
+    text-align: center;
+    margin-top: 3%;
+    padding: 2% 5%;
+}
+
+.map-touch h2 {
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 2%;
+}
+
+.map-touch p {
+    width: 55%;
+    margin-left: 23%;
+    font-size: 1em;
+    margin-bottom: 8%;
+}
+
+.map-touch-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 6.3%;
+}
+
+.map-touch-left img {
+    margin-left: 30px;
+}
+
+.map-touch-right {
+    width: 60%;
+    margin-left: 50px;
+}
+
+.input-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-row input,
+textarea {
+    width: 100%;
+    height: 3.2vh;
+    padding: 10px;
+    margin-right: 2.7%;
+    border-radius: 5px;
+    border: 1px solid #eee9e9;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 0.8em;
+}
+
+textarea {
+    width: 94%;
+    height: 18vh;
+    margin-bottom: 10px;
+}
+
+.text-btn {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    margin-top: 20px;
+}
+
+button {
+    padding: 13px 48px;
+    background-color: #1E64F0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.subscribe {
+    background-image: url('../../../assets/contactsub.png');
+    background-size: cover;
+    height: 48vh;
+    margin-top: 6%;
+    display: flex;
+    text-align: center;
+    color: white;
+    margin-bottom: -4%;
+}
+
+.left {
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 1.9em;
+    text-align: start;
+    font-weight: 600;
+}
+
+.right {
+    margin-left: 2%;
+    background-image: url('../../../assets/subright.png');
+    width: 35vw;
+    height: 30vh;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+.email-input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    /* width: 300px; */
+    /* margin-right: 18%; */
+    /* margin-top: 33px; */
+    margin-top: 6.4%;
+    margin-bottom: 6%;
+    /* margin-bottom: 30px; */
+    width: 78%;
+    /* Adjust width as needed */
+}
+
+.email-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.email-input:focus {
+    outline: none;
+    border-bottom-color: #fff;
+}
+
+.phone-input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    width: 78%;
+    /* margin-right: 18%;   */
+}
+
+.phone-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.phone-input:focus {
+    outline: none;
+    border-bottom-color: #fff;
+}
+
+.submit-btn {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    /* margin-top: 35px; */
+    margin-top: 5%;
+    margin-left: 8.8%;
+    /* margin-left: 45px; */
+
+}
+
+button {
+    padding: 9px 59px;
+    background-color: #1E64F0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+    .contact {
+        height: 30vh;
+        padding-left: 3%;
+    }
+
+    .contact-bg {
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1.2em;
+    }
+
+    .contact-map img {
+        width: 100%;
+        height: auto;
+    }
+
+    .map-touch {
+        padding: 5%;
+    }
+
+    .map-touch h2 {
+        font-size: 1.5em;
+        margin-bottom: 5%;
+    }
+
+    .map-touch p {
+        width: 100%;
+        margin-left: 0;
+        font-size: 0.8em;
+        margin-bottom: 15%;
+    }
+
+    .map-touch-content {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .map-touch-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .map-touch-left img {
+        width: 100%;
+    }
+
+    .map-touch-right {
+        width: 100%;
+    }
+
+    .input-row {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .input-row input,
+    textarea {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        width: 90%;
+        height: 100px;
+    }
+
+    .text-area {
+        padding-right: 0;
+    }
+
+    .text-btn {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .subscribe {
+        flex-direction: column;
+        height: auto;
+        padding: 8% 3%;
+        margin-top: 10%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 1.5em;
+        text-align: start;
+        font-weight: 600;
+        margin-bottom: 10%;
+    }
+
+    .right {
+        width: 85%;
+        height: auto;
+        margin-top: 0;
+        background-size: cover;
+        padding: 5%;
+    }
+
+    .email-input,
+    .phone-input {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .submit-btn {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+
+    .submit-btn button {
+        padding: 10px 50px;
+        font-size: 1em;
+    }
+}

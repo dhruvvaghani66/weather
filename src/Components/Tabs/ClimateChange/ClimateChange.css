@@ -1,0 +1,201 @@
+.climate-change {
+    background-image: url('../../../assets/climate_bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    color: white;
+}
+
+.bg {
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 12%;
+}
+
+.bg h1 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.content-text {
+    font-size: 2em;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.main-row {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    padding: 2%;
+    margin-left: 11%;
+    align-items: center;
+}
+
+.main-row img {
+    width: 6vw;
+}
+
+.sun-icon {
+    width: 10vw;
+    height: auto;
+    margin-right: 3%;
+}
+
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+.city {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.day-condition {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-top: 1%;
+}
+
+.additional-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.additional-details div {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+}
+
+.content-buttons {
+    display: flex;
+    margin-top: 6%;
+    margin-left: 12%;
+}
+
+.div img {
+    margin-top: -1px !important;
+}
+
+.content-buttons button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.4em;
+    font-weight: normal;
+    cursor: pointer;
+    color: black;
+    margin-top: -15px;
+    /* margin-left: -30px; */
+    outline: none;
+    margin-bottom: 90px;
+}
+
+/* Remove default button styles */
+.content-buttons button:focus,
+.content-buttons button:hover,
+.content-buttons button:active {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.content-buttons .active {
+    color: #1e64f0;
+}
+
+.active-image-container {
+    text-align: center;
+    margin-top: 0;
+    /* margin-right: 210px; */
+    margin-right: 1%;
+    margin-bottom: 10%;
+}
+
+.active-image {
+    width: 80vw;
+    height: 60vh;
+    padding-left: 15%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .climate-change {
+        height: 35vh;
+        padding: 20px;
+        background-size: cover;
+        align-items: center;
+    }
+
+    .bg h1 {
+        font-size: 2.5em;
+    }
+
+    .content-text {
+        margin-top: 10%;
+        font-size: 1.5em;
+    }
+
+    .main-row {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+
+    .main-row img {
+        width: 18vw;
+        margin-bottom: 5%;
+        margin-right: 8%;
+    }
+
+    .city {
+        font-size: 1.4em;
+    }
+
+    .weather-details {
+        align-items: flex-start;
+    }
+
+    .day-condition {
+        font-size: 0.8em;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .additional-details {
+        font-size: 0.9em;
+    }
+
+    .content-buttons {
+        align-items: flex-start;
+    }
+
+    .content-buttons button {
+        font-size: 1.3em;
+        margin: 20px -90px;
+        margin-right: 0px;
+    }
+
+    .div img {
+        margin-left: -45px;
+        margin-top: 30px;
+    }
+
+    .active-image {
+        width: 90vw;
+        height: 38vh;
+        margin-left: -10px;
+        margin-bottom: 60% !important;
+
+    }
+}
